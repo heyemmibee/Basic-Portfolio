@@ -165,17 +165,22 @@ input[type=submit] {
 }
 
 .imagelib{
-    position: relative;
+    /* position: relative; */
     text-align: center;
     padding: 10px;
     float: left;
 }
 .text-overlay{
-    text-align: center;
+    text-align: bottom;
     background-color: #4aaaa5;
     color: white;
     position: absolute;
     display: inline-block;
-    padding: 12px;
+    padding: 10px;
+    margin: 6%;
+}
 
+img {
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
